@@ -22,8 +22,7 @@ class Auth extends MY_Controller {
 
 	//--------------------------------------------------------------
 	public function login(){
-
-		if($this->input->post('submit')){
+ 		if($this->input->post('submit')){
 
 			$this->form_validation->set_rules('username', 'Username', 'trim|required');
 			$this->form_validation->set_rules('password', 'Password', 'trim|required');
