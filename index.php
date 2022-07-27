@@ -1,6 +1,6 @@
-<?php
+<?php  
 /**
- * CodeIgniter
+ * CodeIgniter hello world. test and best
  *
  * An open source application development framework for PHP
  *
